@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Student of Artificial Intelligence
+role: Master's Student of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -68,7 +68,10 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/CV.pdf
+  - icon: rp
+    icon_pack: ai
+    link: uploads/Research_Proposal.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

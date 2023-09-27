@@ -80,5 +80,5 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hi, I am Boxuan Zhang! Currently I am on MEng program in artificial intelligence at Sigma Lab, Wuhan University. Before this I completed my BEng in Wuhan University of Computer Science and Technology. I am seeking 24fall Ph.D opportunity now. My research interests include machine learning(i.e. self-supervised/semi-supervised learning &  active learning) and computer vision(i.e. object detection). I am dedicated to design efficient models with low labeling sample requirements. You can email me at zhangboxuan1005 [at] gmail [dot] com.
 {style="text-align: justify;"}

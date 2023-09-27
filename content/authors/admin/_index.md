@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Boxuan Zhang 张博轩
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Boxuan
+last_name: Zhang
 
 # Status emoji
 status:

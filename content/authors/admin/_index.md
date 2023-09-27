@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Master's Student of Artificial Intelligence
+role: Master of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -34,10 +34,10 @@ interests:
 education:
   courses:
     - course: MEng in Artificial Intelligence
-      institution: Wuhan University
+      institution: Wuhan University, China
       year: 2022-2024(Expected)
     - course: BEng in Computer Science and Technology
-      institution: Wuhan University
+      institution: Wuhan University, China
       year: 2018-2022
 
 # Social/Academic Networking
@@ -69,9 +69,9 @@ social:
   - icon: cv
     icon_pack: ai
     link: uploads/CV.pdf
-  - icon: rp
-    icon_pack: ai
-    link: uploads/Research_Proposal.pdf
+  # - icon: rp
+  #   icon_pack: ai
+  #   link: uploads/Research_Proposal.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -80,5 +80,5 @@ email: ''
 highlight_name: true
 ---
 
-Hi, I am Boxuan Zhang! Currently I am on MEng program in artificial intelligence at Sigma Lab, Wuhan University. Before this I completed my BEng in Wuhan University of Computer Science and Technology. I am seeking 24fall Ph.D opportunity now. My research interests include machine learning(i.e. self-supervised/semi-supervised learning &  active learning) and computer vision(i.e. object detection). I am dedicated to design efficient models with low labeling sample requirements. You can email me at zhangboxuan1005 [at] gmail [dot] com.
+Hi, I am Boxuan Zhang! Currently I am on M.Eng program in artificial intelligence at Sigma Lab, Wuhan University. Before this I completed my B.Eng in Wuhan University of Computer Science and Technology. I am seeking 24fall Ph.D opportunity now. My research interests include machine learning(i.e. self-supervised learning & semi-supervised learning & active learning) and computer vision(i.e. classification & object detection). You can email me at zhangboxuan1005 [at] gmail [dot] com.
 {style="text-align: justify;"}

@@ -35,10 +35,10 @@ education:
   courses:
     - course: MEng in Artificial Intelligence
       institution: Wuhan University, China
-      year: 2022-2024(Expected)
+      year: 2022 - 2024(Expected)
     - course: BEng in Computer Science and Technology
       institution: Wuhan University, China
-      year: 2018-2022
+      year: 2018 - 2022
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons

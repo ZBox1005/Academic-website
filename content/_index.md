@@ -106,7 +106,7 @@ sections:
   #     columns: '2'
 
   - block: collection
-    id: featured
+    id: pubs
     content:
       title: Publications
       filters:

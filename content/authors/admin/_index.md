@@ -17,18 +17,19 @@ superuser: true
 role: Master of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
-organizations:
+affiliations:
   - name: Wuhan University
     url: https://www.whu.edu.cn/
+  - name: School of Computer Science
+    url: https://cs.whu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include reliable machine learning(e.g., learning and inference with Out-of-distribution data) and computer vision(e.g., classification and object detection).
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computer Vision
   - Machine Learning
+  - Computer Vision
 
 # Education to show in About widget
 education:
@@ -80,5 +81,5 @@ email: ''
 highlight_name: true
 ---
 
-Hi, I am Boxuan Zhang! Currently I am on M.Eng program in artificial intelligence at Sigma Lab, Wuhan University. Before this I completed my B.Eng in Wuhan University of Computer Science and Technology. I am seeking 24fall Ph.D opportunity now. My research interests include machine learning(i.e. self-supervised learning & semi-supervised learning & active learning) and computer vision(i.e. classification & object detection). You can email me at zhangboxuan1005 [at] gmail [dot] com.
+I am currently on M.Eng program in artificial intelligence at Sigma Lab, School of Computer Science, Wuhan University. Before this I completed my B.Eng in Wuhan University of Computer Science and Technology. I am seeking 24fall Ph.D opportunity now. My research interests include machine learning(e.g. self-supervised & semi-supervised learning, active learning and reliable ) and computer vision(e.g. classification & object detection). You can email me at zhangboxuan1005 [at] gmail [dot] com.
 {style="text-align: justify;"}

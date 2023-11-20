@@ -105,6 +105,15 @@ sections:
   #   design:
   #     columns: '2'
 
+  - block: markdown
+    id: section-1
+    content:
+      title: News
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+
   - block: collection
     id: pubs
     content:

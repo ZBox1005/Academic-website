@@ -171,7 +171,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Posts
+      title: Blogs
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -223,8 +223,8 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      # text: |-
+      #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
       email: zhangboxuan1005@gmail.com
       phone: (+86)15623251290

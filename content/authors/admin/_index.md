@@ -29,7 +29,9 @@ bio: My research interests include reliable machine learning(e.g., learning and 
 # Interests to show in About widget
 interests:
   - Machine Learning
+    self-supervised&semi-supervised learning, learning and inference with Out-of-distribution data
   - Computer Vision
+    classification and object detection
 
 # Education to show in About widget
 education:

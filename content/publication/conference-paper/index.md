@@ -32,8 +32,8 @@ publication_short: In *GRSL*
 
 abstract: The lack of object-level annotations is a main challenge for object detection in remote sensing images. Active learning and semi-supervised learning can improve the quality and quantity of annotations by identifying the most informative samples for annotation and exploring the knowledge from the unlabeled samples respectively. In this paper, we propose a novel semi-supervised object detection method with active teaching for remote sensing images named SSOD-AT by combining object-level pseudo labeling and informative active annotation with a teacher-student network. In the proposed method, a RoI Comparison module (RoICM) is designed based on the teacher-student framework to provide high-confident pseudo-labels of RoIs. Meanwhile, we also use the RoICM to identify the top-K uncertain images. Then a diversity criterion is adopted based on the object-level prototypes of different categories with the labeled images and the pseudo-labeled images to remove the redundancy in the top-K uncertain images for human labeling. The extensive experiments on two popular datasets DOTA and DIOR show that the proposed method outperforms the state-of-the-art methods.
 
-# Summary. An optional shortened abstract.
-summary: The lack of object-level annotations is a main challenge for object detection in remote sensing images. In this paper, we propose a novel semi-supervised object detection method with active teaching for remote sensing images named SSOD-AT by combining object-level pseudo labeling and informative active annotation with a teacher-student network.
+# # Summary. An optional shortened abstract.
+# summary: The lack of object-level annotations is a main challenge for object detection in remote sensing images. In this paper, we propose a novel semi-supervised object detection method with active teaching for remote sensing images named SSOD-AT by combining object-level pseudo labeling and informative active annotation with a teacher-student network.
 
 tags: []
 

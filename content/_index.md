@@ -124,7 +124,7 @@ sections:
         featured_only: true
     design:
       columns: '2'
-      view: compact
+      view: citation
   # - block: collection
   #   content:
   #     title: Recent Publications

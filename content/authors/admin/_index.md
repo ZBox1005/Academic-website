@@ -17,7 +17,7 @@ superuser: true
 role: Master of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
-affiliations:
+organizations:
   - name: Wuhan University
     url: https://www.whu.edu.cn/
   - name: School of Computer Science

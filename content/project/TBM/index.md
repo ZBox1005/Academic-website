@@ -35,7 +35,7 @@ links:
 authors:
   - Xinyue Zhang*
   - Wenbo Zhang*
-  - \**Boxuan Zhang***
+  - admin *
   - Xiaoping Zhang
 
 

@@ -33,9 +33,9 @@ links:
 # url_video: ''
 
 authors:
-  - Xinyue Zhang
-  - Wenbo Zhang
-  - admin
+  - Xinyue Zhang*
+  - Wenbo Zhang*
+  - admin*
   - Xiaoping Zhang
 
 

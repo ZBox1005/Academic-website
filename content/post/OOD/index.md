@@ -1,12 +1,9 @@
 ---
-title: Paper Reading - Multi-Modal Classifiers for Open-Vocabulary Object Detection
+title: Paper Reading - OOD Detection with Implicit Outlier Transformation
 subtitle: ''
 
 # Summary for listings and search engines
-summary: 论文的主要贡献有三：
-  1.  提出了一个LLM来生成目标类别的高质量语言描述，并建立了一个强大的文本分类器。
-  2.  采用了一个图像示例聚合器，可以接收任意数量的图像作为输入，构建视觉分类器。
-  3.  提出了一个简单的方法来融合语言描述和图像示例的信息，得到了一个多模态分类器。
+summary: 提出了分布无关的离群点检测(Distributional-agnostic Outlier Exposure，DOE)，一种基于隐式数据转换的新型离群点检测方法。利用“模型扰动会隐式地产生数据变换”这一思想，当检测模型足够深入，原始数据和转换后的数据分布之间的差异可以足够大，进而有效合成与原始数据大不相同的额外 OOD 数据。
 
 # Link this post with a project
 projects: []
@@ -56,7 +53,7 @@ categories:
 
 由于深度模型在面对 OOD 数据时可能过于自信，因此 OOD 检测仍然不是一件容易的事。在判别模型的基础上，现有的 OOD 检测方法一般可分为两类，即posthoc方法和fine-tuning方法。
 
-1. Posthoc事后方法：假定在 ID 数据上有一个训练有素的模型及其固定参数，利用模型响应设计各种**评分函数**来表示 ID 和 OOD 情况。
+1. Posthoc后处理方法：假定在 ID 数据上有一个训练有素的模型及其固定参数，利用模型响应设计各种**评分函数**来对 ID 和 OOD 数据进行二分类。
 2. fine-tuning微调方法：允许调整目标模型，通过正则化提高其检测能力。通常，微调方法得益于训练过程中对**未知因素**的明确了解，因此通常能在各种实际情况下显示出可靠的性能。
 
 微调方法中，离群点暴露（OE）是最有效的方法之一，它在训练过程中使用代理 OOD 数据来辨别 ID 和 OOD 模式。通过使这些代理OOD 数据以低置信度预测，OE使检测模型能够学习有效检测 OOD 的知识。

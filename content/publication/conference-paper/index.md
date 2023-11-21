@@ -45,8 +45,17 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'uploads/SSOD-AT.pdf'
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+links:
+  - icon: github
+    icon_pack: fab
+    name: Code
+    url: https://github.com/ZBox1005/
+  - icon: file-pdf
+    name: PDF
+    url: uploads/SSOD-AT.pdf
+
+# url_pdf: 'SSOD-AT.pdf'
+# url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_poster: ''
 # url_project: ''

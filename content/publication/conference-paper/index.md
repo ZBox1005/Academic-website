@@ -49,7 +49,7 @@ links:
   - icon: github
     icon_pack: fab
     name: Code
-    url: https://github.com/ZBox1005/SSOD-AT/
+    url: https://github.com/ZBox1005/SSOD-AT
   - icon: file-pdf
     name: PDF
     url: uploads/SSOD-AT.pdf

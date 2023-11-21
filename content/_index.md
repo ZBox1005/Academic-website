@@ -113,7 +113,7 @@ sections:
             \- **[Oct. 2023]**  Honored to receive <a href="http://www.csrme.com/Home/Content/show/id/4432.do" target="_blank">3rd Award</a> @ TBM Machine Learning Competition. <br>  
             \- **[Oct. 2023]**  Attend 2nd TBM Machine Learning Competition(held by <a href="http://www.csrme.com/" target="_blank">CSRME</a>) and present research work @ Shanghai. <br>  
             \- **[Sep. 2023]**  Start my second-year research & learning journey in WHU. <br>   
-            \- **[Aug. 2023]**  Welcome to check the <a href="http://www.csrme.com/Home/Content/show/id/4432.do" target="_blank">project page</a> of my first work [SSOD-AT]({{< relref "/publication/conference-paper" >}}), which has been submitted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859" target="_blank">***GRSL***</a>.  
+            \- **[Aug. 2023]**  Welcome to check the <a href="https://github.com/ZBox1005/SSOD-AT" target="_blank">project page</a> of my first work [SSOD-AT]({{< relref "/publication/conference-paper" >}}), which has been submitted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859" target="_blank">***GRSL***</a>.  
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Boxuan Zhang(张博轩)
+title: Boxuan Zhang
 
 # Full name (for SEO)
 first_name: Boxuan

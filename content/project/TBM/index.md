@@ -24,7 +24,7 @@ links:
   - icon: file-pdf
     name: PDF
     url: uploads/TBM-paper.pdf
-  - icon: presentation-screen
+  - icon: file
     name: Slides
     url: uploads/TBM.pptx
 # url_code: ''

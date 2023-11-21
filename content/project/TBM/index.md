@@ -33,10 +33,14 @@ links:
 # url_video: ''
 
 authors:
-  - Xinyue Zhang*
-  - Wenbo Zhang*
-  - admin *
+  - Xinyue Zhang
+  - Wenbo Zhang
+  - admin
   - Xiaoping Zhang
+author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Equal contribution'
 
 
 # Slides (optional).

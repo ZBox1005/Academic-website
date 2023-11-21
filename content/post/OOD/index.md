@@ -35,7 +35,7 @@ tags:
   - Paper Reading
 
 categories:
-  - MLLM
+  - OOD Detection
 ---
 ## Abstract
 

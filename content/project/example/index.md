@@ -21,8 +21,12 @@ links:
     icon_pack: fab
     name: Code
     url: https://github.com/ZBox1005/
+  - icon: file-pdf
+    icon_pack: fab
+    name: PDF
+    url: uploads/TBM-paper.pdf
 # url_code: ''
-url_pdf: 'content/project/example/paper.docx'
+# url_pdf: 'content/project/example/paper.docx'
 # url_slides: ''
 # url_video: ''
 

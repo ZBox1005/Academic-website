@@ -38,7 +38,7 @@ tags:
   - Paper Reading
 
 categories:
-  - Open set
+  - MLLM
 ---
 
 Hello!

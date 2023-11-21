@@ -24,14 +24,14 @@ affiliations:
     url: https://cs.whu.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include reliable machine learning(e.g., learning and inference with Out-of-distribution data) and computer vision(e.g., classification and object detection).
+bio: My research interests include reliable machine learning(e.g., self-supervised & semi-supervised learning, learning and inference with Out-of-distribution data) and computer vision(e.g., classification and object detection).
 
 # Interests to show in About widget
 interests:
   - Machine Learning
-    self-supervised&semi-supervised learning, learning and inference with Out-of-distribution data
+    # self-supervised&semi-supervised learning, learning and inference with Out-of-distribution data
   - Computer Vision
-    classification and object detection
+    # classification and object detection
 
 # Education to show in About widget
 education:
@@ -83,5 +83,5 @@ email: ''
 highlight_name: true
 ---
 
-I am currently on M.Eng program in artificial intelligence at <a href="http://sigma.whu.edu.cn/" target="_blank"> Sensing IntelliGence and MAchine learning(SIGMA) Lab</a>, <a href="https://cs.whu.edu.cn/" target="_blank"> School of Computer Science</a>, <a href="https://www.whu.edu.cn/" target="_blank"> Wuhan University</a>. Before this I completed my B.Eng in Wuhan University of Computer Science and Technology. I am seeking 24fall Ph.D opportunity now. My research interests include machine learning(e.g. self-supervised & semi-supervised learning, active learning and reliable ) and computer vision(e.g. classification & object detection). You can email me at zhangboxuan1005 [at] gmail [dot] com.
+I am currently on M.Eng program in artificial intelligence at <a href="http://sigma.whu.edu.cn/" target="_blank"> Sensing IntelliGence and MAchine learning(SIGMA) Lab</a>, <a href="https://cs.whu.edu.cn/" target="_blank"> School of Computer Science</a>, <a href="https://www.whu.edu.cn/" target="_blank"> Wuhan University</a>. Before this I completed my B.Eng in Wuhan University of Computer Science and Technology. I am seeking 24fall Ph.D opportunity now. My research interests include reliable machine learning(e.g., self-supervised & semi-supervised learning, learning and inference with Out-of-distribution data) and computer vision(e.g., classification and object detection). You can email me at zhangboxuan1005 [at] gmail [dot] com.
 {style="text-align: justify;"}

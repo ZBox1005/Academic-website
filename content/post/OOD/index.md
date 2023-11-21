@@ -103,11 +103,11 @@ MSP可能会对某些OOD数据做出**过于自信（置信度不低反高）**�
 
 因此，OE通过学习代理OOD分布$D_{OOD}^s$来提升MSP模型h(-)的检测性能。
 
-![image-20231111181051383](uploads/paper-ood/formula1.png)
+![image-20231111181051383](static/uploads/paper-ood/formula1.png)
 
 l_CE为交叉熵，l_OE为均匀分布的KL散度，可以写成：
 
-![image-20231111181323822](uploads/paper-ood/formula2.png)
+![image-20231111181323822](static/uploads/paper-ood/formula2.png)
 
 l_OE使得h(-)学习代理OOD数据为低置信度。由于模型可以在训练阶段看到部分OOD数据，OE在OOD检测中的性能是可信的。
 

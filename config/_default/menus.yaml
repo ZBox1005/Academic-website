@@ -10,7 +10,7 @@ main:
   - name: Publications
     url: '#pubs'
     weight: 20
-  - name: Posts
+  - name: Blogs
     url: '#posts'
     weight: 30
   - name: Contact

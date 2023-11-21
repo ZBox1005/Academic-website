@@ -83,5 +83,5 @@ email: ''
 highlight_name: true
 ---
 
-I am currently on M.Eng program in artificial intelligence at Sigma Lab, School of Computer Science, Wuhan University. Before this I completed my B.Eng in Wuhan University of Computer Science and Technology. I am seeking 24fall Ph.D opportunity now. My research interests include machine learning(e.g. self-supervised & semi-supervised learning, active learning and reliable ) and computer vision(e.g. classification & object detection). You can email me at zhangboxuan1005 [at] gmail [dot] com.
+I am currently on M.Eng program in artificial intelligence at <a href="http://sigma.whu.edu.cn/" target="_blank"> Sensing IntelliGence and MAchine learning(SIGMA) Lab</a>, <a href="https://cs.whu.edu.cn/" target="_blank"> School of Computer Science</a>, <a href="https://www.whu.edu.cn/" target="_blank"> Wuhan University</a>. Before this I completed my B.Eng in Wuhan University of Computer Science and Technology. I am seeking 24fall Ph.D opportunity now. My research interests include machine learning(e.g. self-supervised & semi-supervised learning, active learning and reliable ) and computer vision(e.g. classification & object detection). You can email me at zhangboxuan1005 [at] gmail [dot] com.
 {style="text-align: justify;"}

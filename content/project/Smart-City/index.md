@@ -2,8 +2,8 @@
 title: Self-Supervised Techniques for Intelligent Image Annotation
 summary: This study is aimed at ”smart city” and ”smart healthcare”, and is committed to achieving or even surpassing the performance of a large number of labeled images by using only image-level annotations or unlabeled images.
 tags:
-  - Deep Learning
-date: '2023-04-04T00:00:00Z'
+  - Machine Learning
+date: '2023-03-12T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

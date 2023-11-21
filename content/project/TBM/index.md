@@ -2,7 +2,7 @@
 title: Machine Learning on TBMs Excavation
 summary: A study of rock mass accurate classification based on multi-algorithm cross multi-feature optimization selection and TBM parameter efficient prediction using low-dimensional inputs.
 tags:
-  - Deep Learning
+  - Machine Learning
 date: '2023-10-31T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

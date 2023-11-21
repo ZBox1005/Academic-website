@@ -178,6 +178,6 @@ Offline Training（离线训练）：视觉聚合器为离线训练（在训练�
 
 对于类c，文本分类器W_TEXT，视觉分类器W_IMG，多模态分类器W_MM如下融合：
 
-{{< figure src="content/post/OVOD/imgs/formula.png" id="hello" >}}
+![image-20231112132814018](imgs/formula.png)
 
 分析：我们通过实验发现，统一的多模态聚合器不适合用于生成OVOD的多模态分类器，因为它们会认为仅文本特征便足以解决对比学习任务，而完全忽略了视觉特征。

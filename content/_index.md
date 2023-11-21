@@ -164,6 +164,8 @@ sections:
           tag: '*'
         - name: Machine Learning
           tag: Machine Learning
+        - name: System Designing
+          tag: System Designing
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'

@@ -110,9 +110,9 @@ sections:
     content:
       title: Recent News
       text: - [2023.10]  Honored to receive <a href="http://www.csrme.com/Home/Content/show/id/4432.do" target="_blank">3rd Award</a> @ TBM Machine Learning Competition.
-      - [2023.10]  Attend 2nd TBM Machine Learning Competition(held by <a href="http://www.csrme.com/" target="_blank">CSRME</a>) and present research work @ Shanghai.
-      - [2023.09]  Start my second-year research & learning journey in CS, WHU.
-      - [2023.08]  Finish my first work SSOD-AT {{< cite page="content/publication/conference-paper" view="citation" >}}
+            - [2023.10]  Attend 2nd TBM Machine Learning Competition(held by <a href="http://www.csrme.com/" target="_blank">CSRME</a>) and present research work @ Shanghai.
+            - [2023.09]  Start my second-year research & learning journey in CS, WHU.
+            - [2023.08]  Finish my first work SSOD-AT {{< cite page="content/publication/conference-paper" view="citation" >}}
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'

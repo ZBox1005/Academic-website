@@ -85,30 +85,32 @@ DOE 与分布稳健优化（*distributionally robust optimization,* DRO）相关
 
 ## Preliminary
 
-$D_{ID}$：$X*Y$
+{{< math >}}$D_{ID}${{< /math >}}：{{< math >}}$X*Y${{< /math >}}
 
-$D_{OOD}$: 无关分布，其label和Y没有交集，在训练阶段也不可见
+{{< math >}}$D_{OOD}${{< /math >}}: 无关分布，其label和Y没有交集，在训练阶段也不可见
 
 ### Softmax Scoring
 
-利用maximum softmax prediction，设定了一个阈值来在测试阶段判断输入是来自$D_{ID}$还是$D_{OOD}$。
+利用maximum softmax prediction，设定了一个阈值来在测试阶段判断输入是来自{{< math >}}$D_{ID}{{< /math >}}$还是{{< math >}}$D_{OOD}${{< /math >}}。
+{{< math >}}
 $$
 s_{\mathrm{MSP}}(\boldsymbol{x} ; h)=\max _{k} \operatorname{softmax}_{k} h(\boldsymbol{x}),
 $$
+{{< /math >}}
 由于OOD的label与Y没有交集，其softmax的结果会小于来自$D_{ID}$的样本。
 
 ### Outlier Exposure
 
 MSP可能会对某些OOD数据做出**过于自信（置信度不低反高）**的预测，不利于有效的OOD检测。
 
-因此，OE通过学习代理OOD分布$D_{OOD}^s$来提升MSP模型h(-)的检测性能。
+因此，OE通过学习代理OOD分布{{< math >}}$D_{OOD}^s${{< /math >}}来提升MSP模型h(-)的检测性能。
 
 ![image-20231111181051383](formula1.png)
 
-l_CE为交叉熵，l_OE为均匀分布的KL散度，可以写成：
+{{< math >}}$l_{CE}${{< /math >}}为交叉熵，{{< math >}}$l_{OE}${{< /math >}}为均匀分布的KL散度，可以写成：
 
 ![image-20231111181323822](formula2.png)
 
-l_OE使得h(-)学习代理OOD数据为低置信度。由于模型可以在训练阶段看到部分OOD数据，OE在OOD检测中的性能是可信的。
+{{< math >}}$l_{OE}${{< /math >}}使得h(-)学习代理OOD数据为低置信度。由于模型可以在训练阶段看到部分OOD数据，OE在OOD检测中的性能是可信的。
 
-然而，代理的OOD数据$D_{OOD}^s$与真实世界的$D_{OOD}$区别相当大，这也导致了训练-$D_{OOD}^s$与测试-$D_{OOD}$之间存在gap。在部署时，模型会继承这种数据偏差，可能会对与代理OOD不同的真实OOD又做出过于自信的预测（OE在真实OOD下是失效的）。
+然而，代理的OOD数据{{< math >}}$D_{OOD}^s${{< /math >}}与真实世界的{{< math >}}$D_{OOD}${{< /math >}}区别相当大，这也导致了训练{{< math >}}$D_{OOD}^s${{< /math >}}与测试-{{< math >}}$D_{OOD}${{< /math >}}之间存在gap。在部署时，模型会继承这种数据偏差，可能会对与代理OOD不同的真实OOD又做出过于自信的预测（OE在真实OOD下是失效的）。

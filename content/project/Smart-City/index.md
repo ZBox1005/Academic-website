@@ -12,6 +12,10 @@ image:
   caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
+authors:
+  - Zengmao Wang
+  - admin
+
 # links:
 #   # - icon: twitter
 #   #   icon_pack: fab

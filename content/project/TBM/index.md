@@ -32,6 +32,13 @@ links:
 # url_slides: ''
 # url_video: ''
 
+authors:
+  - Xinyue Zhang
+  - Wenbo Zhang
+  - admin
+  - Xiaoping Zhang
+
+
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.

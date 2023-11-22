@@ -20,7 +20,7 @@ links:
   - icon: github
     icon_pack: fab
     name: Code
-    url: https://github.com/ZBox1005/
+    url: https://github.com/ZBox1005/TBM-Competition
   - icon: file-pdf
     name: PDF
     url: uploads/TBM-paper.pdf

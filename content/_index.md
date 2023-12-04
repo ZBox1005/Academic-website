@@ -184,7 +184,7 @@ sections:
       # Filter on criteria
       filters:
         folders:
-          - post
+          - blog
         author: ""
         category: ""
         tag: ""

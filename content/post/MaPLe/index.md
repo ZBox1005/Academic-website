@@ -1,21 +1,21 @@
 ---
-title: Paper Reading - Multi-Modal Classifiers for Open-Vocabulary Object Detection
+title: Paper Reading - Multi-modal Prompt Learning
 subtitle: ''
 
 # Summary for listings and search engines
 summary: 论文的主要贡献有三：
-  1.  提出了一个LLM来生成目标类别的高质量语言描述，并建立了一个强大的文本分类器。
-  2.  采用了一个图像示例聚合器，可以接收任意数量的图像作为输入，构建视觉分类器。
-  3.  提出了一个简单的方法来融合语言描述和图像示例的信息，得到了一个多模态分类器。
+  1. 第一个提出在 CLIP 中进行**多模态prompt学习**，以便更好地调整其视觉语言表征。
+  2. 为了将在文本和图像编码器中学习到的提示联系起来，提出了一种**耦合函数**，以明确地将视觉提示作为其语言对应物的条件。它充当了**两种模态之间的桥梁**，允许梯度相互传播，以促进协同作用。
+  3. 我们的多模态prompt学习是通过视觉和语言分支中的多个transformer块学习的，以逐步学习两种模态的协同行为。这种深度prompt策略允许对上下文关系进行独立建模，从而为对齐视觉语言表征提供了更多的灵活性。
 
 # Link this post with a project
 projects: []
 
 # Date published
-date: '2023-11-03T00:00:00Z'
+date: '2023-12-04T00:00:00Z'
 
 # Date updated
-lastmod: '2023-11-03T00:00:00Z'
+lastmod: '2023-12-04T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
@@ -61,7 +61,7 @@ MaPLe促进了视觉和语言表征的对齐。这种设计促进了视觉-语�
 
 1. 第一个提出在 CLIP 中进行**多模态prompt学习**，以便更好地调整其视觉语言表征。
 2. 为了将在文本和图像编码器中学习到的提示联系起来，提出了一种**耦合函数**，以明确地将视觉提示作为其语言对应物的条件。它充当了**两种模态之间的桥梁**，允许梯度相互传播，以促进协同作用。
-3. 我们的多模态prompt学习是通过视觉和语言分支中的多个transformer块学习的，以逐步学习两种模态的协同行为。这种深度prompt策略允许对上下文关系进行独立建模，从而为对齐视觉语言表征提供了更多的 灵活性。
+3. 我们的多模态prompt学习是通过视觉和语言分支中的多个transformer块学习的，以逐步学习两种模态的协同行为。这种深度prompt策略允许对上下文关系进行独立建模，从而为对齐视觉语言表征提供了更多的灵活性。
 
 ## Method
 

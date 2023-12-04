@@ -174,7 +174,7 @@ sections:
       flip_alt_rows: false
 
   - block: collection
-    id: posts
+    id: blogs
     content:
       title: Blogs
       subtitle: ''

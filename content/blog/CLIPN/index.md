@@ -121,7 +121,7 @@ OOD 检测任务的 9 个基准数据集（3 个 ID 数据集和 6 个 OOD 数�
 
 我们试图补充一种**否定逻辑**，即文本内容与图像内容在语义上是**否定的**。为此，我们定义了一系列“不”提示来补充原文。表示一幅图像 $x$ 的文本为 $t$，“否”提示池定义为 ：
 
-${pool}_{no}(t)$ = {"a photo without {$t$}"", "a photo not appearing {$t$}"", ..., "a photo not containing {$t$}"}
+${pool}_{no}(t)$ = {"a photo without {$t$}", "a photo not appearing {$t$}", ..., "a photo not containing {$t$}"}
 
 其中有L个人工制作的“否”提示，该提示池是在“Better vision-language models with feature adapters”这篇文章的基础上构建的，并用**否定关键字**进行了修改。
 
@@ -133,7 +133,7 @@ ${pool}_{no}(t)$ = {"a photo without {$t$}"", "a photo not appearing {$t$}"", ..
 
 ![image-20231206172355116](imgs/training.png)
 
-**Mini-Batch：** $\mathcal{B}=\left\{\left(\boldsymbol{x}_{i}, \boldsymbol{t}_{i}, \boldsymbol{t}_{i}^{n o}\right)\right\}_{i=1}^{N} \in \mathbb{D}_{c l i p}$
+**Mini-Batch：** {{< math >}}$\mathcal{B}=\left\{\left(\boldsymbol{x}_{i}, \boldsymbol{t}_{i}, \boldsymbol{t}_{i}^{n o}\right)\right\}_{i=1}^{N} \in \mathbb{D}_{c l i p}${{< /math >}}
 
 **编码：**![image-20231206172814371](imgs/formula1.png)
 
@@ -165,7 +165,7 @@ ${pool}_{no}(t)$ = {"a photo without {$t$}"", "a photo not appearing {$t$}"", ..
 
   其中 $∥∥_2$ 是 L2 距离函数。当所有$g_i$和$g_i^{no}$对嵌入到特征空间中的相反方向时，$\mathcal{L}_{tso}$ 将减小到 0。
 
-一个mini-batch的总损失通过将上述**两个损失值相加**来计算：$\mathcal{L}_{B}=\mathcal{L}_{itbo}+\mathcal{L}_{tso}$ 。
+一个mini-batch的总损失通过将上述**两个损失值相加**来计算：{{< math >}}$\mathcal{L}_{B}=\mathcal{L}_{itbo}+\mathcal{L}_{tso}${{< /math >}} 。
 
 ### Inference algorithm of CLIPN
 

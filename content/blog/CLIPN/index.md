@@ -1,5 +1,5 @@
 ---
-title: Paper Reading - CLIPN for Zero-Shot OOD Detection:Teaching CLIP to Say No
+title: Paper Reading - CLIPN for Zero-Shot OOD Detection——Teaching CLIP to Say No
 subtitle: ''
 
 # Summary for listings and search engines

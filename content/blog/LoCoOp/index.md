@@ -1,21 +1,18 @@
 ---
-title: Paper Reading - Multi-modal Prompt Learning
+title: Paper Reading - LoCoOp-- Few-Shot Out-of-Distribution Detection via Prompt Learning
 subtitle: ''
 
 # Summary for listings and search engines
-summary: 论文的主要贡献有三：
-  1. 第一个提出在 CLIP 中进行**多模态prompt学习**，以便更好地调整其视觉语言表征。
-  2. 为了将在文本和图像编码器中学习到的提示联系起来，提出了一种**耦合函数**，以明确地将视觉prompt作为其对应的语言prompt的条件。它充当了**两种模态之间的桥梁**，允许梯度相互传播，促进模态之间的协同。
-  3. 多模态prompt学习通过视觉和语言分支中的多个transformer块进行学习，以**逐步学习**两种模态的协同行为。这种深度prompt策略允许对上下文关系进行独立建模，从而为对齐视觉语言表征提供了更多的灵活性。
+summary: 局部正则化上下文优化(LoCoOp)主要包含两部分：1. 从 CLIP 局部特征中提取与 ID 无关的区域。2. 用提取的区域进行 OOD 正则化训练。
 
 # Link this post with a project
 projects: []
 
 # Date published
-date: '2023-12-04T00:00:00Z'
+date: '2023-12-21T00:00:00Z'
 
 # Date updated
-lastmod: '2023-12-04T00:00:00Z'
+lastmod: '2023-12-21T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
@@ -38,7 +35,7 @@ tags:
   - Paper Reading
 
 categories:
-  - MLLM
+  - OOD
 ---
 
 # LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning

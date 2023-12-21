@@ -35,7 +35,7 @@ tags:
   - Paper Reading
 
 categories:
-  - OOD
+  - OOD Detection
 ---
 
 # LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning

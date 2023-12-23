@@ -71,7 +71,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/CV.pdf
+    link: uploads/CV-12.8.pdf
   # - icon: rp
   #   icon_pack: ai
   #   link: uploads/Research_Proposal.pdf

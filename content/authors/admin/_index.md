@@ -63,9 +63,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/ZBox1005
-  # - icon: linkedin
-  #   icon_pack: fab
-  #   link: https://www.linkedin.com/
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/%E5%8D%9A%E8%BD%A9-%E5%BC%A0-ab54442a1/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.

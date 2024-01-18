@@ -109,7 +109,7 @@ sections:
     id: section-1
     content:
       title: Recent News
-      text: \- **[Jan. 2024]**  Our work [SSOD-AT]({{< relref "/publication/conference-paper" >}}) is accepted by  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859" target="_blank">***GRSL***</a>! <br>
+      text: \- **[Jan. 2024]**  Our work [SSOD-AT]({{< relref "/publication/conference-paper" >}}) is accepted by  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859" target="_blank">***GRSL***</a>. <br>
             \- **[Nov. 2023]**  Start working with <a href="https://zfancy.github.io/" target="_blank">Jianing Zhu</a> in the <a href="https://github.com/tmlr-group" target="_blank">TMLR Group@ HKBU</a> on OOD detection. <br>
             \- **[Oct. 2023]**  Honored to receive <a href="http://www.csrme.com/Home/Content/show/id/4432.do" target="_blank">3rd Award</a> @ TBM Machine Learning Competition. <br>  
             \- **[Oct. 2023]**  Attend 2nd TBM Machine Learning Competition(held by <a href="http://www.csrme.com/" target="_blank">CSRME</a>) and present research work @ Shanghai. <br>  

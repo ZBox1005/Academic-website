@@ -4,6 +4,9 @@ title:
 date: 2022-10-24
 type: landing
 
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=oM2e8O9RTAs3lMB0Z_228bJZEW1D3_Y3l8hND23fhs0&cl=ffffff&w=a">
+</script>
+
 sections:
   - block: about.biography
     id: about
